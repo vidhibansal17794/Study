@@ -8,7 +8,8 @@
 </head>
 <body>
 
-${a}
-
+${a.name}
+S
 </body>
 </html>
+

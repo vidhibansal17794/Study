@@ -68,6 +68,12 @@ public class ControllerDemo {
 		Optional<Alien> a=ar.findById(id);
 		m.addAttribute(a);
 		System.out.println(a);
+		 System.out.println(ar.findByName("abc"));
+		
+		  System.out.println(ar.findByLangOrderBy("en"));
+		 System.out.println(ar.findByIdGreaterThan(101));
+		 
+
 		return "Submit";		
 	}
 	

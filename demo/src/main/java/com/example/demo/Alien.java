@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -8,7 +9,9 @@ public class Alien {
 
 	@Id()
 	private int id;
+	@Column(name="Name")
 	private String name;
+	@Column(name="Lang")
 	private String lang;
 	public int getId() {
 		return id;
